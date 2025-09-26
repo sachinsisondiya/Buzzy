@@ -1,0 +1,63 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: aliceblue;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+nav{
+  
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home-logo{
+  height: 30px;
+  width: 30px;
+}
+.home-link{
+  display: flex;
+  align-items: center;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 2rem;
+  text-decoration:none ;
+  color:hsl(356.25deg 69.57% 54.9%);
+  letter-spacing: 0.1px;
+}
+.nav-link{
+  text-decoration: none;
+  font-size:1rem ;
+  font-weight: 400;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  color: black;
+}
+footer{
+  text-align: center;
+
+}
+footer > p{
+  border-top:1px solid gray;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 1em;
+  
+}
+.social-icons-div{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.social-icon{
+  height: 50px;
+  width: 50px;
+}
