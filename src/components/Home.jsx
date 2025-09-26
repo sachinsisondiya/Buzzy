@@ -1,3 +1,16 @@
+import {Outlet} from "react-router-dom"
+
+import Header from "./Header"
+import Footer from "./Footer"
 export default function Home(){
-  return <h1>Home</h1>
+  return <>
+  <Header />
+
+  <main>
+  <Outlet/>
+  </main>
+
+  <Footer/>
+
+  </>
 }
