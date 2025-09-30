@@ -13,7 +13,7 @@ export default function Header(){
           className="nav-link"
           to="/user">User</NavLink>
 
-          <NavLink className="nav-link" to="/driver/Travel">Driver</NavLink>
+          <NavLink className="nav-link" to="/driver">Driver</NavLink>
 
           <NavLink className="nav-link" to="/admin">Admin</NavLink>
 
