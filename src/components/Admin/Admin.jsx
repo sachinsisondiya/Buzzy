@@ -1,44 +1,68 @@
 import react from "react"
+import "./Admin.css"
 export default function Admin(){
   return (
-    <>
+    <div className="admin">
     <h1>Enter the details of drivers</h1>
     <form>
-     <label for="firstName">First Name</label>
+
+    <div className="container">
+     <label htmlFor="firstName">First Name</label>
      <input
      type="text"
       placeholder="Satashi"
       id="firstName"
+      name="firstName"
       required
       />
+      </div>
 
-      <label for="lastName">Last Name</label>
+      <div className="container">
+      <label htmlFor="lastName">Last Name</label>
       <input
       type="text"
       placeholder="Nakamoto"
       id="lastName"
-      required
+      name="lastName"
       />
+      </div>
 
-      <label for="email">Email</label>
+      <div className="container">
+      <label htmlFor="email">Email</label>
       <input
       type="email"
       placeholder="abc@gmail.com"
       id="email"
+      name="email"
       required
       />
-
-      <label for="password">Password</label>
+      </div>
+       
+       <div className="container">
+      <label htmlFor="password">Password</label>
       <input
        type="password"
        placeholder="********"
        id="password"
+       name="password"
        required
       />
+      </div>
 
+      <div className="container">
+        <label htmlFor="confirmPassword">Confirm Password</label>
+        <input
+        type="password"
+        placeholder="********"
+        id="confirmPassword"
+        name="confirmPassword"
+        required
+        />
+
+      </div>
 
     <button type="submit">Submit</button>
     </form>
-    </>
+    </div>
   )
 }
